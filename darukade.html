@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- boot -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./darukade.css">
+    <title>darukade</title>
+</head>
+<body>
+
+    <div>
+    <ul class="nav justify-content" style="background-color:rgb(113, 179, 28); height: 40px;">
+        <li class="nav-item" style="margin-right: 100px;">
+          <a href="http://127.0.0.1:5500/proje%206/darukade.html" class="nav-link active px-4 " style="color: white; font-size: 14px; position: absolute; top: 3px; right: 85px;">ورود کاربر</a>
+          <i class="bi bi-person" style="position: absolute; right: 88px;"></i>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.darukade.com/Login?ReturnUrl=%2fprofile"  class="nav-link  px-4 " style="color: white; margin-left:10px; font-size: 14px; position: absolute; top: 3px; right: 200px; ">پیگیری سفارش</a>
+          <i class="bi bi-cart-check" style="position: absolute; right: 203px;"></i>
+        </li>
+      </ul>
+    </div>  
+
+
+      <div class="nav" style="height: 100px; background-color: white; ">
+        <i class="bi bi-cart3" style="position: absolute; top: 30px; right: 102px; color: rgb(32, 56, 32); font-size: 20px;"></i>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><p style="font-size: 16px;">سبد خرید</p></a>
+        <i class="bi bi-chat-dots-fill" style="position: absolute; top: 22px; right: 85px; color: rgba(224, 18, 18, 0.932);"></i>
+
+        <nav class="navbar">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-5" type="search" placeholder="عبارت مورد نظرتان را جهت جستجو وارد کنید ..." style="width: 400px;">
+                <button class="btn btn-outline-success" type="submit" style="background-color: rgb(113, 179, 28); border: none;"><i style="color: white;" class="bi bi-search"></i></button>
+              </form>
+            </div>
+        </nav>
+
+          <a href="http://127.0.0.1:5500/proje%206/darukade.html"><img src="./img/download.png" class="pic1" alt=""></a>
+
+          
+      </div>
+
+      <hr>
+
+
+      <ul class="nav nav-tabs" style="background-color: lightgray; width: 100%; padding-right: 70px; position: absolute; top: 137px;">
+        <li class="nav-item dropdown">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">آرایشی بهداشتی</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">محصولات آفتاب </a></li>
+            <li><a class="dropdown-item" href="#"> مرطوب کننده</a></li>
+            <li><a class="dropdown-item" href="#"> ضد لک</a></li>
+            <li><a class="dropdown-item" href="#">ضد چروک</a></li>
+            <li><a class="dropdown-item" href="#"> پاکسازی پوست </a></li>
+            <li><a class="dropdown-item" href="#"> مراقبت مو</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">مکمل غذایی</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">مکمل آقایان</a></li>
+            <li><a class="dropdown-item" href="#">مکمل بانوان</a></li>
+            <li><a class="dropdown-item" href="#"> مکمل کودکان</a></li>
+            <li><a class="dropdown-item" href="#">مکمل گیاهی</a></li>
+            <li><a class="dropdown-item" href="#">مکمل ورزشی</a></li>
+            <li><a class="dropdown-item" href="#"> مکمل تنظیم وزن</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">مکمل ورزشی</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">پروتین</a></li>
+            <li><a class="dropdown-item" href="#">آمینواسید </a></li>
+            <li><a class="dropdown-item" href="#"> کربوهیدرات</a></li>
+            <li><a class="dropdown-item" href="#">کاهش وزن </a></li>
+            <li><a class="dropdown-item" href="#">انرژی زا</a></li>
+            <li><a class="dropdown-item" href="#"> کراتین</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">مادر و کودک </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">مادر و بارداری</a></li>
+            <li><a class="dropdown-item" href="#">دوران شیردهی</a></li>
+            <li><a class="dropdown-item" href="#">بهداشت مادر و کودک</a></li>
+            <li><a class="dropdown-item" href="#">شیر خشک و غذای کودک</a></li>
+            <li><a class="dropdown-item" href="#"> مکمل مادران</a></li>
+            <li><a class="dropdown-item" href="#">مکمل کودکان </a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">تجهیزات پزشکی</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">تجهیزات پزشکی بدن</a></li>
+            <li><a class="dropdown-item" href="#">تجهیزات قند و خون</a></li>
+            <li><a class="dropdown-item" href="#">سلامت محیط</a></li>
+            <li><a class="dropdown-item" href="#">تجهیزات تسکین دهنده</a></li>
+            <li><a class="dropdown-item" href="#"> ترازو و دماسنج</a></li>
+            <li><a class="dropdown-item" href="#"> تجهیزات مادر و کودک</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> مجله ی داروکده</a>
+        </li>
+
+        <li class="nav-item">
+          <a id="nav" style="color: rgba(0, 0, 0, 0.74);" class="nav-link" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false"> داروخونه ی مرکزی دماوندی</a>
+        </li>
+
+        
+      
+      </ul>
+
+
+      <div class="miane" style="height: 4710px;">
+       
+        <div style="position: absolute; top: 225px; right: 380px; width: 850px;" id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <a href="https://www.darukade.com/products/supplement-heart-health-711/capsule-cardio-fit-plus-omega-and-q10-23813"><img src="./img/میانه 1.jpg" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="https://www.darukade.com/products/supplement-hair-care-1157/capsule-hairnutri-7276"><img src="./img/میانه 2.jpg" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="https://www.darukade.com/products/supplement-hair-care-1157/tablet-hair-x-20283"><img src="./img/میانه 3.jpg" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="https://www.darukade.com/brands/bright-max-2698"><img src="./img/میانه 4.jpg" class="d-block w-100"></a>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <a href="https://www.darukade.com/brands/eyesol-458?g=29"><img src="./img/میانه 5.jpg" class="d-block w-100"></a>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <a href="https://www.darukade.com/products/cosmetic-anti-hair-loss-29/tonic-lotion-hair-care-tonic-25817"><img style="position: absolute; top: 225px; right: 90px; "  src="./img/میانه 6.jpg"></a>
+        <a href="https://www.darukade.com/brands/lavia-2757"><img  style="position: absolute; top: 380px; right: 90px;"    src="./img/میانه 7.jpg"></a>
+
+
+        <h1 style="position: absolute; font-size: 25px; top: 580px; right: 388px;"><span style="color: rgba(177, 127, 19, 0.836);">پیشنهادات طلایی</span> امروز داروکده</h1>
+
+        <a href="https://www.darukade.com/brands/coverderm-2649"><img style="position: absolute; top: 560px; right: 90px;" src="./img/میانه 8.jpg" alt=""></a>
+
+
+        <div class="box1">
+          <h3 style="position: absolute; top: 40px; font-size: 22px; right: 30px;">وینترویتس</h3>
+          <p style="position: absolute ; top: 75px; font-size: 16px; right: 39px;">health Aid</p>
+          <a href="https://www.darukade.com/products/supplement-zink-972/capsule-zinc-plus-10-mg-b-complex-7573"><img style="position: absolute; right: 290px; top: 40px;" src="./img/میانه 9.jpg" alt=""></a>
+          <p style="position: absolute; right: 560px; top: 90px; color: red;"><del>100.000</del></p>
+          <p style="position: absolute; right: 560px; top: 115px; ">65.000 تومان</p>
+
+          <button style="position: absolute; top: 160px; right: 585px; border: none; color: white; background-color: rgb(31, 180, 31); width: 240px; height: 35px; border-top-left-radius: 5px;">خرید</button>
+          <i class="bi bi-basket" style="font-size: 22px; position: absolute; right: 564px; top: 160px; color: white; background-color: green; border-top-right-radius: 5px; height: 35px; width: 30px; padding: 3px; padding-bottom: 10px;"></i>
+
+          <p id="demo" style="height: 100px; width: 300px;  color:black; line-height: 100px; text-align: center; font-size: 30px; position: absolute; top: 200px; right: 580px;"></p>
+          <p style="position: absolute; top: 240px; right: 555px; font-size: 14px;">فرصت باقیمانده</p>
+          <p style="position: absolute; top: 215px; right: 665px; font-size: 12px;">ثانیه</p>
+          <p style="position: absolute; top: 215px; right: 700px; font-size: 12px;">دقیقه</p>
+          <p style="position: absolute; top: 215px; right: 740px; font-size: 12px;">ساعت</p>
+          <p style="position: absolute; top: 215px; right: 785px; font-size: 12px;">روز</p>
+        </div>
+
+        <a href="https://www.darukade.com/brands/emoni-2650"><img style="position: absolute; top: 810px; right: 88px;" src="./img/میانه10.jpg" alt=""></a>
+
+        <a href="https://www.darukade.com/products?ex=180&d=t&a=t"><img style="position: absolute; top: 960px; right: 88px;" src="./img/میانه 11.jpg" alt=""></a>
+
+        <p style="position: absolute; top: 965px; right: 380px; font-size:17px ;">در دنیای بهداشتی چه خبر؟</p>
+
+
+        <div class="box2">
+          <a href="https://www.darukade.com/products/supplement-skin-care-anti-wrinkle-and-anti-aging-1052/sachet-pure-collagen-26772"><img style="position:absolute; right: 300px; top: 30px; width: 230px;" src="./img/میانه 12.jpg" alt=""></a>
+          <div style="position: absolute; height: 30px; width: 250px; top: 8px; right: 10px; background-color: lightgray;">
+            <p style="position: absolute; font-size: 14px; right: 225px; top: 5px;">3.5</p>
+            <p style="position: absolute; font-size: 14px; right: 10px; top: 5px;">12k</p>
+            <i style="position: absolute; font-size: 14px; right: 35px; top: 5px;" class="bi bi-eye-fill"></i>
+          </div>
+          <h3 style="font-size: 16px; position: absolute; top: 50px; right: 7px;">کرم مرطوب کننده کلاژن پوست خشک</h3>
+          <p style="position: absolute; top: 75px; right: 10px; font-size: 15px;">cosmecology</p>
+          <button style="position: absolute; background-color: rgba(255, 0, 0, 0.925); color: white; border: none; border-radius: 3px; right: 12px; top: 142px; width: 80px; height: 21px;"><span style="font-size: 13px;">15% تخفیف</span></button>
+          <p style="position: absolute; top:  175px; right: 15px; font-size: 13px; color: gray;"><del>154.000</del></p>
+          <p style="position: absolute; top: 200px; right: 15px; font-size: 18px;" >130.900 تومان</p>
+          <button style="position: absolute; top: 235px; right: 40px; border: none; color: white; background-color: rgb(31, 180, 31); width: 240px; height: 35px; border-top-left-radius: 5px;">خرید</button>
+          <i class="bi bi-basket" style="font-size: 22px; position: absolute; right: 10px; top: 235px; color: white; background-color: green; border-top-right-radius: 5px; height: 35px; width: 30px; padding: 3px; padding-bottom: 10px;"></i>
+
+          <img style="position: absolute; left: 0.2px; height: 298px;" src="./img/میانه 13.jpg" alt="">
+        </div> 
+
+
+        <a href="https://www.darukade.com/brands/trichoglocal-2750"><img style="position: absolute; top: 1345px; right: 375px;" src="./img/میانه 14.jpg" alt=""></a>
+        <a href="https://www.darukade.com/brands/lavia-2757"><img style="position: absolute; top: 1508px; right: 375px;" src="./img/میانه 15.jpg" alt=""></a>
+
+        <a href="https://www.darukade.com/brands/demodexcilin-2652"><img style="position: absolute; top: 1225px; right: 90px;" src="./img/میانه 16.jpg" alt=""></a>
+        <a href="https://www.darukade.com/brands/castres-2656"><img style="position: absolute; top: 1495px; right: 90px;" src="./img/میانه 17.jpg" alt=""></a>
+
+
+        <p style="position: absolute; font-size: 17px; top: 1692px; right: 382px;">گروه منتخب محصولات</p>
+
+
+        <div class="box3">
+
+          <a href="https://www.darukade.com/products/cosmetic-kids-body-shampoo-942?g=818"><img src="./img/میانه 18.jpg" style="position: absolute; width: 240px; top: 25px;  right: 25px;" >
+            <p style="position: absolute; top: 210px; right: 27px; font-size: 15px; color: rgb(49, 48, 48);">شامپو</p>
+  </a>
+         <a href="https://www.darukade.com/products/supplement-sport-supplement-167"> <img src="./img/میانه 19.jpg" style="position: absolute; width: 240px; right: 300px; top: 25px;">
+          <p style="position: absolute; top: 210px; right: 303px; font-size: 15px;color: rgb(49, 48, 48);">مکمل ورزشی</p></a>
+
+          <a href="https://www.darukade.com/products/weight-adjustment-100119"><img src="./img/میانه 20.jpg" style="position: absolute; width: 240px; right: 575px; top: 25px;"  >
+            <p style="position: absolute; top: 210px; right: 579px; font-size: 15px;color: rgb(49, 48, 48);">تنظیم وزن</p></a>
+
+          <a href="https://www.darukade.com/products/cosmetic-anti-wrinkle-761"><img src="./img/میانه 21.jpg" style="position: absolute; width: 240px; top: 250px; right: 25px;" >
+            <p  style="position: absolute; top: 435px; right: 27px; font-size: 15px;color: rgb(49, 48, 48);">ضد چروک</p></a>
+
+          <a href="https://www.darukade.com/products/cosmetic-hair-color-134"><img src="./img/میانه 22.jpg" style="position: absolute; width: 240px; top: 250px; right: 300px;"  >
+            <p style="position: absolute; top: 435px; right: 303px; font-size: 15px;color: rgb(49, 48, 48);">رنگ مو و ابرو و مژه</p></a>
+
+          <a href="https://www.darukade.com/products/cosmetic-lightning-13"><img src="./img/میانه 23.jpg" style="position: absolute; width: 240px; top: 250px; right: 575px;" >
+            <p style="position: absolute; top: 435px; right: 579px; font-size: 15px;color: rgb(49, 48, 48);">ضد لک</p></a>
+
+        </div>
+        <a href="https://www.darukade.com/products/supplement-mens-multivitamins-1004/tablet-matrasi-multi-vitamins-and-minerals-for-men-26451"><img src="./img/عکس 1.jpg" style="position: absolute; top: 2245px; right: 107px; width: 1120px;" alt=""></a>
+
+        <p style="position: absolute; top: 2425px; right: 130px; font-size: 18px;">آرایشی (جدید)</p>
+
+
+
+        <div class="box4">
+          <a href="https://www.darukade.com/products/cosmetic-fundation-542/cream-unique-anti-imperfection-bb-cream-spf15-26954">
+            <div class="pack1" style="position: absolute; border: 1px solid lightgray; height: 355px; width: 240px; right: 40px; top: 20px;">
+              <img style="width:165px ; height: 160px; position: absolute; right: 30px; top: 15px;" src="./img/عکس 6.jpg">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 9px; font-size: 14px;">بی بی کرم رنگی SPF15 پوست چرب</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">Dermaunique</p>
+              <p style="position: absolute; top: 297px; right: 15px; font-size: 15px; color: rgb(218, 10, 10);"><del>564,100</del></p>
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;" >479.500 تومان</p>
+            </div>
+          </a>
+
+          <a href="https://www.darukade.com/products/cosmetic-face-anti-spot-507/serum-unique-c-8-vit-serum-26955">
+            <div class="pack1" style="position: absolute; right: 300px; border: 1px solid lightgray; height: 355px; width: 240px; top: 20px;">
+              <img  style="width:150px ; height: 160px; position: absolute; right: 40px; top: 15px;" src="./img/عکس 7.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 9px; font-size: 14px;">سرم ویتامین سی 8 درصد</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">Dermaunique</p>
+              <p style="position: absolute; top: 297px; right: 15px; font-size: 15px; color: rgb(218, 10, 10);"><del>877,500</del></p>
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">745.900 تومان</p>
+            </div>
+          </a>
+
+          <a href="https://www.darukade.com/products/cosmetic-cotton-women-pad-930/sanitary-napkin-extra-large-maxi-soft-pad-26958">
+            <div class="pack1" style="position: absolute; right: 564px; border: 1px solid lightgray; height: 355px; width: 240px; top: 20px;">
+              <img style="width:150px ; height: 160px; position: absolute; right: 40px; top: 15px;" src="./img/عکس 8.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 9px; font-size: 14px;">نوار بهداشتی نیمه ضخیم پنبه ایی</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">Molped</p>
+              <p style="position: absolute; top: 297px; right: 15px; font-size: 15px; color: rgb(218, 10, 10);"><del>50,000</del></p>
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">29.900 تومان</p>
+            </div>
+           </a>
+
+           <a href="https://www.darukade.com/products/cosmetic-female-hygiene-gel-879/gel-daily-intimate-gel-for-sensitive-skin-26974">
+            <div class="pack1" style="position: absolute; right: 828px; border: 1px solid lightgray; height: 355px; width:240px; top: 20px;">
+              <img style="width:165px ; height: 160px; position: absolute; right: 30px; top: 15px;" src="./img/عکس 9.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 9px; font-size: 14px;">ژل بهداشتی بانوان پوست حساس</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">Liesel</p>
+              <p style="position: absolute; top: 297px; right: 15px; font-size: 15px; color: rgb(218, 10, 10);"><del>250.000</del></p>
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">239,000 تومان</p>
+            </div>
+           </a>
+        </div>
+
+        <a href="https://www.darukade.com/products/supplement-sport-supplement-167"><img src="./img/عکس 10.jpg" style="position: absolute; top: 2900px; right: 104px; width: 1120px;" alt=""></a>
+
+        <p style="position: absolute; top: 3075px; right: 125px; font-size: 18px; ">مکمل (جدید)</p>
+
+        <div class="box5">
+          <a href="https://www.darukade.com/products/supplement-female-fertility-improvement-995/capsule-fh-pro-for-women-26969">
+            <div class="pack1" style="position: absolute; border: 1px solid lightgray; height: 355px; width: 240px; right: 40px; top: 20px;">
+              <img style="width:165px ; height: 160px; position: absolute; right: 30px; top: 15px;" src="./img/عکس 11.jpg">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 12px; font-size: 14px;">اف اچ پرو بانوان</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">fairhaven health</p>
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;" >3,124,600 تومان</p>
+            </div>
+          </a>
+
+          <a href="https://www.darukade.com/products/supplement-male-reproductive-improvement-994/capsule-fh-pro-for-men-26970">
+            <div class="pack1" style="position: absolute; right: 300px; border: 1px solid lightgray; height: 355px; width: 240px; top: 20px;">
+              <img  style="width:150px ; height: 160px; position: absolute; right: 40px; top: 15px;" src="./img/عکس 12.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color:  black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right:12px; font-size: 14px;">اف اچ پرو آقایان</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">fairhaven health</p>
+              
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">3,523,400 تومان</p>
+            </div>
+          </a>
+
+          <a href="https://www.darukade.com/products/supplement-boost-baby-growth-320/drops-kinder-zirad-drop-26972">
+            <div class="pack1" style="position: absolute; right: 564px; border: 1px solid lightgray; height: 355px; width: 240px; top: 20px;">
+              <img style="width:150px ; height: 160px; position: absolute; right: 40px; top: 15px;" src="./img/عکس 13.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 12px; font-size: 14px;">قطره زیراد کیندر</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">fisher kinder</p>
+              
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">76,300 تومان</p>
+            </div>
+           </a>
+
+           <a href="https://www.darukade.com/products/supplement-weight-loss-213/capsule-greenfit-barij-26973">
+            <div class="pack1" style="position: absolute; right: 828px; border: 1px solid lightgray; height: 355px; width:240px; top: 20px;">
+              <img style="width:165px ; height: 160px; position: absolute; right: 30px; top: 15px;" src="./img/عکس 14.jpg" alt="">
+              <i class="bi bi-star-fill" style="position: absolute; left: 6px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 21px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-fill" style="position: absolute; left: 37px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star-half" style="position: absolute; left: 53px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <i class="bi bi-star" style="position: absolute; left: 69px; top: 193px; color: rgb(245, 203, 19);"></i>
+              <p style="position: absolute; left: 92px; top: 195px; color: black; font-size: 13px;">3.5</p>
+              <i style="position: absolute; font-size: 15px; top: 194px; right: 22px; color: rgb(45, 231, 45);" class="bi bi-eye-fill"></i>
+              <p style="position: absolute; top: 194px; font-size: 14px; color: black; right: 10px;">0</p>
+              <hr style=" color: rgb(163, 157, 157); position: relative; top: 206px; ">
+
+              <p style="position: absolute; color: black; top: 233px; right: 9px; font-size: 14px;">گرین فیت باریج</p>
+              <p style="position: absolute; top: 265px; right: 13px; font-size: 13px; color: rgb(87, 160, 182);">Barij Essence</p>
+              
+              <p style="position: absolute; top: 319px; right: 15px; color: black; font-size: 15px;">47,000 تومان</p>
+            </div>
+           </a>
+        </div>
+
+        <a href="https://www.darukade.com/products/cosmetic-100001"><img src="./img/عکس 15.jpg" style="position: absolute; top: 3553px; right: 104px; width: 1120px;" alt=""></a>
+          
+        <p style="position: absolute; right: 105px; top: 3718px; font-size: 18px; color: rgb(30, 151, 30);">آخرین مقالات</p>
+        
+        <button style="position:absolute; top: 3715px; right: 1115px; width: 110px; height: 35px; background-color:  rgb(66, 199, 66); border: none; color: white;" >مشاهده همه</button>
+
+         
+        <div class="box6">
+
+          <div class="pack2">
+            <a href="https://www.darukade.com/mag/articles/weight-4/keto-diet-fast-weight-loss-or-a-dangerous-trend-1105"><img style="position: absolute; width: 333px; top: 30px ; right: 1px;" src="./img/pic 1.jpg">
+
+              <p style="position: absolute; top: 215px; right: 4px; font-size: 16px; color: black;">رژیم کتو: لاغری سریع یا ترندی خطرناک؟</p>
+              <p style="position: absolute; color: rgb(27, 177, 27); top: 355px; right: 275px; font-size: 15px;">مشاهده</p>
+            </a>
+          <i style="position: absolute; font-size: 14px; right: 102px; top: 251px; color: rgb(151, 149, 149);" class="bi bi-eye-fill"></i>
+          <p style="position: absolute; font-size: 13px; right: 70px; top: 251px; color: rgb(151, 149, 149);">8152</p>
+          <i style="position: absolute; font-size: 13px; right: 24px; top: 251px; color: rgb(151, 149, 149);" class="bi bi-heart-fill"></i>
+          <p style="position: absolute; color: rgb(110, 109, 109); top:251px ; right: 8px; font-size: 13px;">12</p>
+          <p style="position: absolute; top:290px ; right: 6px; font-size: 14px;">با مطالعه این مقاله از مجله داروکده با رژیم کتو و مزایا و عوارض آن آشنا شوید</p>
+          </div>
+
+
+         <div class="pack3">
+          <a href="https://www.darukade.com/mag/articles/notifications-16/online-pharmacy-online-shopping-1109">
+            <img style="position: absolute; left: 2px; top: 30px; width: 333px; " src="./img/pic2.jpg" alt="">
+
+          <p style="position: absolute; top: 215px; right: 4px; font-size: 16px; color:black;">داروخونه آنلاین و خرید اینترنتی</p>
+          <p style="position: absolute; color: rgb(27, 177, 27); top: 355px; right: 275px; font-size: 15px;">مشاهده</p>
+          </a>
+
+          <i style="position: absolute; font-size: 14px; right: 102px; top: 251px; color: rgb(151, 149, 149);" style="position: absolute; font-size: 14px; right: 35px; top: 5px;" class="bi bi-eye-fill"></i>
+          <p style="position: absolute; font-size: 13px; right: 78px; top: 251px; color: rgb(151, 149, 149);">640</p>
+          <i style="position: absolute; font-size: 13px; right: 24px; top: 251px; color: rgb(151, 149, 149);" class="bi bi-heart-fill"></i>
+          <p  style="position: absolute; color: rgb(110, 109, 109); top:251px ; right: 15px; font-size: 13px;">5</p>
+          <p style="position: absolute; top:290px ; right: 6px; font-size: 14px;">در این مطلب از مجله ی داروکده درباره ی داروخونه های آنلاین و خرید اینترنتی بخونید.</p>
+         </div>
+
+
+          <div class="pack4">
+          
+
+          <i style="position: absolute; font-size: 14px; right: 102px; top: 251px; color: rgb(151, 149, 149);" style="position: absolute; font-size: 14px; right: 35px; top: 5px;" class="bi bi-eye-fill"></i>
+          <p style="position: absolute; font-size: 13px; right: 78px; top: 251px; color: rgb(151, 149, 149);">838</p>
+          <i style="position: absolute; font-size: 13px; right: 24px; top: 251px; color: rgb(151, 149, 149);" class="bi bi-heart-fill"></i>
+          <p style="position: absolute; color: rgb(110, 109, 109); top:250px ; right: 15px; font-size: 13px;">8</p>
+          <p style="position: absolute; top:290px ; right: 6px; font-size: 14px;">نوزادان و کودکان پوست نازک تری نسبت به بزرگسالان دارند بنابراین محافظت از پوست آنها ظروری است. در این مقاله بخوانید که چطور از پوست نوزادان و کودکان خود مراقبت کنیم.</p>
+
+          <a href="https://www.darukade.com/mag/articles/skin-2/how-to-take-care-of-the-skin-of-babies-and-children-1108">
+            <img style="position: absolute; left: 2px; top: 30px; width: 333px;" src="./img/pic3.jpg" alt="">
+
+            <p style="position: absolute; top: 215px; right: 4px; font-size: 16px; color: black;">چگونه از پوست کودکان و نوزادان مراقبت کنیم؟</p>
+            <p style="position: absolute; color: rgb(27, 177, 27); top: 355px; right: 275px; font-size: 15px;">مشاهده</p>
+          </a>
+          </div>
+
+        </div> 
+
+
+        <a href="https://www.darukade.com/brands/matrasi-2724"> <img src="./img/pic4.jpg" style="position: absolute; top: 4200px; right: 104px; width: 1120px;" ></a>
+
+
+        <div class="box7">
+
+          <a href="http://127.0.0.1:5500/proje%206/darukade.html"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 178px;">صفحه ی نخست</p></a>
+          <a href="https://www.darukade.com/Login?ReturnUrl=%2fProfile"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 304px;">کاربران</p></a>
+          <a href="https://www.darukade.com/Login?ReturnUrl=%2fProfile"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 373px;">پیگیری سفارش</p></a>
+         <a href="https://www.darukade.com/Order"> <p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 487px;">ثبت سفارش</p></a>
+          <a href="https://www.darukade.com/mag"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 580px;">مجله ی داروکده</p></a>
+          <a href="http://127.0.0.1:5500/proje%206/darukade.html"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 692px;">ویکی کده</p></a>
+          <a href="http://127.0.0.1:5500/proje%206/darukade.html"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 766px;">کمپین مصرف کنندگان</p></a>
+         <a href="http://127.0.0.1:5500/proje%206/darukade.html"> <p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 913px;">فرصت های شغلی</p></a>
+          <a href="https://www.darukade.com/mag/articles/suplement-9/how-to-buy-from-darukade-website-787"><p style="position: absolute; color: white; top: 12px; font-size: 14px; right: 1037px;">راهنمای خرید</p></a>
+
+        </div>
+
+        <a href="https://t.me/darukadecom"><i style="position: absolute; top: 4490px; right: 441px; font-size: 24px; color: black;" class="fa-solid fa-paper-plane"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4490px; right: 503px; font-size: 25px; color: black;" class="fa-brands fa-whatsapp"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4490px; right: 563px; font-size: 25px; color: black;" class="fa-brands fa-youtube"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4490px; right: 629px; font-size: 24px; color: black;" class="fa-brands fa-linkedin-in"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4492px; right: 685.5px; font-size: 24px; color: black;" class="fa-brands fa-twitter"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4492px; right: 750px; font-size: 24px; color: black;" class="fa-brands fa-google"></i></a>
+        <a href="https://www.instagram.com/darukadecom1/?__coig_restricted=1"><i style="position: absolute; top: 4492px; right: 814px; font-size: 24px; color: black;" class="fa-brands fa-instagram"></i></a>
+        <a href="http://127.0.0.1:5500/proje%206/darukade.html"><i style="position: absolute; top: 4492px; right: 873px; font-size: 24px; color: black;" class="fa-brands fa-facebook"></i></a>
+
+        <a href="https://trustseal.enamad.ir/?id=11950&Code=IZzhRpLwx851PDDyMOLB"><img src="./img/pic5.png" style="position: absolute; right: 625px; top: 4530px; width: 95px;"></a>
+
+        <div class="box8">
+           <a href="https://www.darukade.com/aboutus"><p style="position: absolute; right:490px; top: 10px; color:whitesmoke; font-size: 14px;">درباره ی ما</p>
+            <i class="bi bi-person" class="bi bi-cart-check" style="position: absolute; right: 469px; font-size: 18px; top: 8px; color: whitesmoke;"></i></a>
+          <a href="https://www.darukade.com/contactus"> <p style="position: absolute; right:621px; top: 10px;  font-size: 14px; color: whitesmoke;">تماس با ما</p>
+            <i class="bi bi-cart-check" style="position: absolute; right: 601px; font-size: 18px; top: 8px; color: whitesmoke;"></i></a>
+           <a href="https://www.darukade.com/jamalzadeh"><p style="position: absolute; right:745px; top: 10px; font-size: 14px; color:whitesmoke;">داروخونه ی مرکزی دماوندی</p>
+            <i class="bi bi-lock" style="position: absolute;   right: 725px; font-size: 19px; top: 8px; color: whitesmoke;"></i></a>
+        </div>
+
+        <div class="box9">
+          <p style="position: absolute; color: whitesmoke; right: 285px; top: 16px; font-size: 15px; ">تهران - خیابان جمالزاده شمالی - 200 متر بالاتر از خیابان فرصت - نبش کوچه یزدان شناس - پلاک 251 - داروخانه مرکزی جمالزاده</p>
+          <h3 class="fw-bold" style="position: absolute; color: whitesmoke; right: 570px; top: 55px; font-size: 17px;">021-52862000-62747000</h3>
+        </div>
+
+        <div class="box10"></div>
+
+        <p style="position: absolute; top: 4815px; right: 553px; font-size: 12px; color: rgb(97, 95, 95);">طراحی و توسعه توسط گروه آریاس ( 1402-1388 )</p>
+
+      </div>
+
+
+    <script src="./darukade.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

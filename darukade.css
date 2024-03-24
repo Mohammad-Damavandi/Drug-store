@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'vazir' , sans-serif;
+    font-size: 1rem;
+    background-color: #fafafa;
+}
+
+.lalezar{
+    font-family: 'lalezar';
+}
+ul{
+    position: relative;
+}
+ul i{
+    position: absolute;
+    top: 11px;
+    color: white;
+}
+
+.nav{
+    position: relative;
+}
+
+.ali span:hover{
+   background-color: green;
+}
+
+.nav p{
+    position: absolute;
+    top: 30px;
+    right: 125px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.664);
+}
+
+.navbar{
+    position: absolute;
+    
+    right: 300px;
+    top: 18px;
+}
+
+.pic1{
+    position: absolute;
+    width: 150px;
+    height: 65px;
+    top: 8px;
+    left: 130px;
+}
+
+#nav:hover{
+    background-color: white;
+    border-top: 3px solid rgb(113, 179, 28);
+}
+
+.box1{
+    width: 850px;
+    height: 300px;
+    border: 1px solid rgba(177, 127 ,19, 0.836);
+    position: absolute;
+    background-color: white;
+    top: 640px;
+    right: 378px;
+    border-radius: 2px;
+}
+
+.box2{
+    width: 850px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 1015px;
+    right: 378px;
+    border-radius: 2px;
+}
+
+
+.box3{
+    width: 850px;
+    height: 470px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 1733px;
+    right: 374px;
+    border-radius: 2px;
+}
+.box4{
+    width: 1110px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 2290px;
+    right: 110px;
+    border-radius: 2px;
+}
+
+.pack1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.box5{
+    width: 1110px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 2543px;
+    right: 110px;
+    border-radius: 2px;
+}
+
+.box6{
+    width: 1115px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid lightgray;
+    position: relative;
+    top: 2788px;
+    right: 110px;
+    border-radius: 2px;
+}
+
+.pack2{
+    position: absolute;
+    width: 340px;
+    right: 26px;
+    height: 400px;
+   
+
+}
+
+.pack3{
+    position: absolute;
+    right: 384px;
+    width: 340px;
+    height: 400px;
+    
+
+}
+
+.pack4{
+    position: absolute;
+    right: 747px;
+    width: 340px;
+    height: 400px;
+   
+
+}
+
+.box7{
+    width: 100%;
+    height: 44px;
+    background-color:#1b273f;
+    position: absolute;
+    top: 4418px;
+}
+
+.box7 p:hover{
+    background-color:rgb(82, 129, 21);
+    border-radius: 8px;
+}
+
+.box8{
+    width: 100%;
+    height: 44px;
+    background-color:rgb(113, 179, 28);
+    position: absolute;
+    top: 4635px;
+}
+
+.box8 p:hover{
+    background-color:rgb(82, 129, 21);
+    border-radius: 8px;
+}
+
+.box9{
+    width: 100%;
+    height: 100px;
+    background-color:#1b273f;
+    position: absolute;
+    top: 4685px;
+}
+
+.box10{
+    width: 100%;
+    height: 5px;
+    background-color:rgb(113, 179, 28);
+    position: absolute;
+    top: 4785px;
+}
+
+.box3 img:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.nav p:hover{
+     color:rgb(113, 179, 28);
+     
+}
+
